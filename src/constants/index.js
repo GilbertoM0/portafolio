@@ -91,6 +91,8 @@ import {
   SiPandas,
   SiInsomnia,
   SiClickup,
+  SiSupabase,
+  SiVercel,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -107,7 +109,7 @@ export const resumeLink =
   "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
 export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/gilberto-macias-03889927a/";
 
 export const navLinks = [
   {
@@ -163,7 +165,7 @@ export const educationList = [
 ];
 
 // Add your past achievements here for example - rankings in hackathons/events
-export const achievements = [
+//export const achievements// = [
   // {
   //   id: "a-1",
   //   icon: ethindia,
@@ -271,7 +273,7 @@ export const achievements = [
   //   content3: "",
   //   project: "https://devfolio.co/projects/green-trust-ed14",
   // },
-];
+//];
 
 // Add your software developments skills here for example - programming languages, frameworks etc.
 export const skills = [
@@ -428,6 +430,14 @@ export const skills = [
         icon: SiFigma,
         name: "Figma",
       },
+      { id: "t-10",
+        icon: SiSupabase,
+        name: "Supabase",
+      },
+      { id: "t-10",
+        icon: SiVercel,
+        name: "Vercel",
+      },
     ],
   },
 ];
@@ -491,6 +501,18 @@ export const experiences = [
         content: [
           {
             text: "Developed and designed a website and managed social media (Instagram, Facebook, WhatsApp).",
+            link: "",
+          },
+          {
+            text: "Technologies: Figma, HTML, CSS, JavaScript, Nest.js (Back-end)",
+            link: "",
+          },
+          {
+            text: "Challenges & Solutions: Overcame UI/UX design constraints to create an intuitive and seamless user experience.",
+            link: "",
+          },
+          {
+            text: "Agile Methodology: Worked with Scrum and Jira for efficient project management.  ",
             link: "",
           },
         ],
