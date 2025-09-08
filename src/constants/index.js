@@ -77,6 +77,20 @@ import {
   SiTypescript,
   SiClaude,
   SiOracle,
+  SiHtml5,
+  SiCss3,
+  SiNodedotjs,
+  SiPrisma,
+  SiDocker,
+  SiPostgresql,
+  SiAndroid,
+  SiKotlin,
+  SiMongodb,
+  SiSqlite,
+  SiNumpy,
+  SiPandas,
+  SiInsomnia,
+  SiClickup,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -131,132 +145,132 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    title: "TECHNOLOGICAL NATIONAL INSTITUTE OF MEXICO JIQUILPAN CAMPUS",
+    degree: "Computer Systems Engineering",
+    duration: "August 2021 - December 2026 (Expected)",
+    content1: "Relevant Coursework: Data Structures and Algorithms, Artificial Intelligence, Systems Programming, Computer Networks, Data Science (Diploma) ",
+    content2: "Awards: First Place in Local InnovaTec Competition, Participation in a Summer Research Program Extracurricular",
   },
   {
     id: "education-2",
     icon: pba,
-    title: "Polkadot Blockchain Academy",
+    title: "Bachiller HIGH SCHOOL",
     degree: "",
-    duration: "May 2024 - June 2024",
+    duration: "August 2018 - June 2021",
     content1:
-      "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+      "Activities: Knowledge Olympiad, Volleyball Club, TIC'S Specialty",
   },
 ];
 
 // Add your past achievements here for example - rankings in hackathons/events
 export const achievements = [
-  {
-    id: "a-1",
-    icon: ethindia,
-    event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 10 Overall Finalists/Winners, True Network's Winner",
-    content2: "Polkadot's 1st Runner Up, Lit Protocol's 2nd Runner Up",
-    content3: "Coinbase Pool Prize, Base Top 10",
-    article:
-      "https://www.linkedin.com/posts/mittal-parth_super-stoked-to-announce-that-our-team-emerged-activity-7274735259621961729-tkq4?utm_source=share&utm_medium=member_desktop",
-    project: "https://devfolio.co/projects/khoj-3336",
-    youtube:
-      "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
-  },
-  {
-    id: "a-2",
-    icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 12 Winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
-    article:
-      "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
-  },
-  {
-    id: "a-3",
-    icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1:
-      "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
-    content2: "",
-    content3: "",
-    article:
-      "https://www.linkedin.com/posts/mittal-parth_hackathon-winners-web3-activity-7048340759116214272-eJvo?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOa76QB7zljgX8NK4xVSZXi0Z49ETMeC-g",
-    github: "https://github.com/pranav2305/GreenTrust",
-  },
-  {
-    id: "a-4",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
-  },
-  {
-    id: "a-5",
-    icon: globalAi,
-    event: "Global AI HackFest 2023",
-    position: "Winner",
-    content1:
-      "1st Position in the Education, Finance & Tech track by AI Planet",
-    content2: "",
-    content3: "",
-    article:
-      "https://www.linkedin.com/posts/mittal-parth_happy-to-share-that-comicifyai-emerged-as-activity-7078790186435833856-88fh",
-  },
-  {
-    id: "a-6",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1:
-      "Rated the best portfolio website among 450+ participants across the globe.",
-    content2: "",
-    content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://parthmittal.netlify.app/",
-  },
-  {
-    id: "a-7",
-    icon: manipal,
-    event: "Manipal Hackathon'22",
-    position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
-    content2:
-      "Developed a cross-platform mobile application to address the problem of social cohesion.",
-    content3: "",
-    article: "https://shorturl.at/exEIQ",
-  },
-  {
-    id: "a-8",
-    icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1:
-      "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-9",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1:
-      "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
-  },
+  // {
+  //   id: "a-1",
+  //   icon: ethindia,
+  //   event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
+  //   position: "Winner",
+  //   content1: "Top 10 Overall Finalists/Winners, True Network's Winner",
+  //   content2: "Polkadot's 1st Runner Up, Lit Protocol's 2nd Runner Up",
+  //   content3: "Coinbase Pool Prize, Base Top 10",
+  //   article:
+  //     "https://www.linkedin.com/posts/mittal-parth_super-stoked-to-announce-that-our-team-emerged-activity-7274735259621961729-tkq4?utm_source=share&utm_medium=member_desktop",
+  //   project: "https://devfolio.co/projects/khoj-3336",
+  //   youtube:
+  //     "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
+  // },
+  // {
+  //   id: "a-2",
+  //   icon: ethglobal,
+  //   event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
+  //   position: "Winner",
+  //   content1: "Top 12 Winners among 20k+ registrations",
+  //   content2: "One of Polygon's Best Public Goods",
+  //   content3: "Best Module on Biconomy SDK",
+  //   article:
+  //     "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
+  //   project: "https://devfolio.co/projects/chargeswap-3527",
+  //   youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+  // },
+  // {
+  //   id: "a-3",
+  //   icon: polkadot,
+  //   event: "Polkadot Hackathon: Europe Edition",
+  //   position: "2nd Runner Up in the ink! Smart Contract Category",
+  //   content1:
+  //     "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
+  //   content2: "",
+  //   content3: "",
+  //   article:
+  //     "https://www.linkedin.com/posts/mittal-parth_hackathon-winners-web3-activity-7048340759116214272-eJvo?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOa76QB7zljgX8NK4xVSZXi0Z49ETMeC-g",
+  //   github: "https://github.com/pranav2305/GreenTrust",
+  // },
+  // {
+  //   id: "a-4",
+  //   icon: lightspeed,
+  //   event: "Warpspeed by Lightspeed",
+  //   position: "1st Runner Up",
+  //   content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
+  //   content2: "Top 3 projects using Replit",
+  //   content3: "1st Runner Up by Amazon Web Services (AWS)",
+  //   article: "https://shorturl.at/fhjsT",
+  // },
+  // {
+  //   id: "a-5",
+  //   icon: globalAi,
+  //   event: "Global AI HackFest 2023",
+  //   position: "Winner",
+  //   content1:
+  //     "1st Position in the Education, Finance & Tech track by AI Planet",
+  //   content2: "",
+  //   content3: "",
+  //   article:
+  //     "https://www.linkedin.com/posts/mittal-parth_happy-to-share-that-comicifyai-emerged-as-activity-7078790186435833856-88fh",
+  // },
+  // {
+  //   id: "a-6",
+  //   icon: dennisivy,
+  //   event: "September Hackathon by Dennis Ivy",
+  //   position: "Winner",
+  //   content1:
+  //     "Rated the best portfolio website among 450+ participants across the globe.",
+  //   content2: "",
+  //   content3: "",
+  //   youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
+  //   project: "https://parthmittal.netlify.app/",
+  // },
+  // {
+  //   id: "a-7",
+  //   icon: manipal,
+  //   event: "Manipal Hackathon'22",
+  //   position: "Consolation Prize",
+  //   content1: "Top 10 among 500+ teams across India",
+  //   content2:
+  //     "Developed a cross-platform mobile application to address the problem of social cohesion.",
+  //   content3: "",
+  //   article: "https://shorturl.at/exEIQ",
+  // },
+  // {
+  //   id: "a-8",
+  //   icon: icon,
+  //   event: "ICON Hyperbuild Hackathon",
+  //   position: "Honorable Mention",
+  //   content1:
+  //     "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
+  //   content2: "",
+  //   content3: "",
+  //   project: "https://devpost.com/software/green-trust-xj2w6g",
+  // },
+  // {
+  //   id: "a-9",
+  //   icon: ethforall,
+  //   event: "ETHForAll 2023",
+  //   position: "Top 3 Superfluid Projects",
+  //   content1:
+  //     "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
+  //   content2: "",
+  //   content3: "",
+  //   project: "https://devfolio.co/projects/green-trust-ed14",
+  // },
 ];
 
 // Add your software developments skills here for example - programming languages, frameworks etc.
@@ -266,8 +280,8 @@ export const skills = [
     items: [
       {
         id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
+        icon: SiKotlin,
+        name: "Kotlin",
       },
       {
         id: "pl-2",
@@ -276,28 +290,28 @@ export const skills = [
       },
       {
         id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
+        icon: SiC,
+        name: "C#",
       },
       {
         id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
+        icon: SiMysql,
+        name: "SQL",
       },
-      {
+       {
         id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
+        icon: SiPostgresql,
+        name: "PostgreSQL",
       },
       {
         id: "pl-6",
         icon: DiJava,
         name: "Java",
       },
-      {
+       {
         id: "pl-7",
-        icon: SiC,
-        name: "C",
+        icon: SiMongodb,
+        name: "MongoDB",
       },
       {
         id: "pl-8",
@@ -314,10 +328,10 @@ export const skills = [
         icon: SiJavascript,
         name: "JavaScript",
       },
-      {
+       {
         id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
+        icon: SiSqlite,
+        name: "SQLite",
       },
     ],
   },
@@ -331,8 +345,8 @@ export const skills = [
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: SiNumpy,
+        name: "NumPy",
       },
       {
         id: "f-3",
@@ -356,13 +370,8 @@ export const skills = [
       },
       {
         id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
+        icon: SiPandas,
+        name: "Pandas",
       },
     ],
   },
@@ -371,8 +380,8 @@ export const skills = [
     items: [
       {
         id: "t-1",
-        icon: SiOracle,
-        name: "Oracle Cloud",
+        icon: SiAndroid,
+        name: "Android Studio",
       },
       {
         id: "t-1",
@@ -406,18 +415,18 @@ export const skills = [
       },
       {
         id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
+        icon: SiClickup,
+        name: "ClickUp",
       },
       {
         id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
+        icon: SiInsomnia,
+        name: "Insomnia",
       },
       {
         id: "t-9",
-        icon: SiVite,
-        name: "ViteJS",
+        icon: SiFigma,
+        name: "Figma",
       },
     ],
   },
@@ -426,30 +435,16 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
+    organisation: "Internship in Colombia  ",
     logo: oracle,
     link: "https://www.oracle.com/in/",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "INSTITUTO TECNOLÓGICO METROPOLITANO",
+        duration: "June - August 2024",
         content: [
           {
-            text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
-          },
-          {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
+            text: "Developed an application to convert fuzzy logic CSV files in the ceramics sector into Excel format. Cleaned, filtered, and performed bibliometric analysis on data. Used Python with NumPy, Pandas, and fuzzy logic libraries. Organized work using Scrum methodology and Teams.  ",
             link: "",
           },
         ],
@@ -457,71 +452,45 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Averlon",
-    logo: averlon,
+    organisation: "Pre-National Website",
+    logo: khoj,
     link: "https://averlon.ai/",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: " Instituto Tecnológico de México - Campus Jiquilpan ",
+        duration: "April - June 2025 ",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
+            text: "Developed and designed the official event website and managed its dynamic content.",
             link: "",
           },
           {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+            text: "Technologies: HTML, CSS, JavaScript, Nest.js (Back-end), PostgreSQL. ",
+            link: "",
+          },
+          {
+            text: "Challenges & Solutions: Optimized the architecture to improve load times and streamline navigation.",
+            link: "",
+          },
+          {
+            text: "Agile Methodology: Worked with Scrum for efficient coordination of development and deliveries.",
             link: "",
           },
         ],
       },
     ],
   },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
+ {
+    organisation: "Project Alcate",
+    logo: kosh,
+    link: "https://averlon.ai/",
     positions: [
       {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
+        title: "Web Developer & UI/UX Designer ",
+        duration: "August 2023 - September 2024",
         content: [
           {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "Developed and designed a website and managed social media (Instagram, Facebook, WhatsApp).",
             link: "",
           },
         ],
@@ -534,228 +503,188 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Khoj",
-    github: "https://github.com/marcdhi/Khoj",
-    link: "https://devfolio.co/projects/khoj-3336",
+    title: "PRENATIONAL",
+    github: "https://github.com/GilbertoM0/back-prenacional",
+    link: "https://prenacional-itj.vercel.app/",
     image: khoj,
     content:
-      "Participate in AI-personalised treasure hunts where each clue is a physical location. Earn on-chain rewards and onboard a million users. Overall winning project at ETHIndia'24.",
+      "An informative and user-friendly web platform designed to centralize details for the Prenational Sports Event hosted by the Instituto Tecnológico de Jiquilpan — including teams, venues, schedules, and results.",
     stack: [
       {
         id: "icon-1",
-        icon: SiSolidity,
-        name: "Solidity",
+        icon: SiHtml5,
+        name: "HTML5",
       },
       {
         id: "icon-2",
-        icon: SiTypescript,
-        name: "Typescript",
+        icon: SiCss3,
+        name: "CSS3",
       },
       {
         id: "icon-3",
-        icon: SiReact,
-        name: "React.js",
+        icon: SiJavascript,
+        name: "JavaScript",
       },
       {
         id: "icon-4",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: SiTypescript,
+        name: "TypeScript",
       },
       {
         id: "icon-5",
-        icon: SiClaude,
-        name: "Claude Sonnet",
+        icon: SiNodedotjs,
+        name: "Node.js",
+      },
+      {
+        id: "icon-6",
+        icon: SiPrisma,
+        name: "Prisma ORM",
+      },
+      {
+        id: "icon-7",
+        icon: SiDocker,
+        name: "Docker",
+      },
+      {
+        id: "icon-8",
+        icon: SiPostgresql,
+        name: "PostgreSQL",
       },
     ],
   },
   {
     id: "project-2",
-    title: "Kosh SDK",
-    github: "https://github.com/mittal-parth/kosh-sdk",
-    link: "https://ethglobal.com/showcase/kosh-hk3mp",
+    title: "ALCATE",
+    github: "https://github.com/GilbertoM0/sitiowebALCATE",
+    link: "https://gilbertom0.github.io/sitiowebALCATE/",
     image: kosh,
     content:
-      "Simple and secure way to interact with remote MCP Servers in Trusted Execution Environments (TEEs). Built at ETHGlobal Trifecta Hackathon.",
+      "Worked on the InnovaTec 2024 project for ALCATE, a unique sauce combining mango, chipotle, and other ingredients. Its flavor offers a perfect balance of sweet and spicy, making it a versatile accompaniment for a variety of foods.",
     stack: [
       {
         id: "icon-2",
-        icon: SiTypescript,
-        name: "Typescript",
+        icon: SiHtml5,
+        name: "HTML5",
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: SiCss3,
+        name: "CSS3",
       },
       {
         id: "pl-2",
-        icon: SiPython,
-        name: "Python",
+        icon: SiJavascript,
+        name: "JavaScript",
       },
     ],
   },
   {
     id: "project-3",
-    title: "Polkadot Dev CLI",
-    github: "https://github.com/mittal-parth/polkadot-dev-cli",
-    link: "https://crates.io/crates/polkadot-dev-cli",
+    title: "Bejam",
+    github: "https://github.com/GilbertoM0/Bejam",
+    link: "https://bejam.vercel.app/",
     image: polkadot_dev_cli,
     content:
-      "CLI tool for Polkadot developers bundling linting, formatting, and version management. cargo install polkadot-dev-cli.",
+      "I developed the website for Bejam, a brand whose name comes from the combination of 'Be' from Betabel and 'Jam' from Jamón, reflecting their passion for offering the best fresh and delicious ham. On this site, I helped showcase their commitment to providing customers with a unique and satisfying experience, featuring high-quality products and exceptional service.",
     stack: [
       {
-        id: "icon-1",
-        icon: FaRust,
-        name: "Rust",
+        id: "icon-2",
+        icon: SiHtml5,
+        name: "HTML5",
+      },
+      {
+        id: "icon-2",
+        icon: SiCss3,
+        name: "CSS3",
+      },
+      {
+        id: "pl-2",
+        icon: SiJavascript,
+        name: "JavaScript",
       },
     ],
   },
   {
     id: "project-4",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://devfolio.co/projects/comicifyai-97a6",
+    title: "X-ray Classifier",
+    github: "https://github.com/GilbertoM0/covid",
+    link: "https://gilbertom0.github.io/covid/",
     image: comicify_ai,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "I developed a web application for classifying chest X-rays to assist in detecting potential signs of cancer. The project integrates a machine learning model to analyze medical images and provide predictions, showcasing the application of AI in healthcare.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React",
+        icon: SiHtml5,
+        name: "HTML5",
       },
       {
         id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
+        icon: SiCss3,
+        name: "CSS3",
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI",
+        icon: SiJavascript,
+        name: "JavaScript",
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform",
+        icon: SiPython,
+        name: "Python",
       },
       {
         id: "icon-5",
-        icon: SiFlask,
-        name: "Flask",
+        icon: SiDocker,
+        name: "Docker",
       },
     ],
   },
   {
     id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
+    title: "Panaderia 'MacNova'",
     github: "",
-    link: "http://recruitment.nitk.ac.in/",
+    link: "https://www.figma.com/proto/SjCwVBKVJF1rBbTcieL2ry/Panaderia?node-id=10-5&p=f&t=wDAcgfS72H2Pa9fR-0&scaling=contain&content-scaling=fixed&page-id=0%3A1",
     image: recruitment,
     content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
+      "I created a Figma design for MacNova, focusing on a clean and modern interface that highlights their products and enhances the customer experience.",
     stack: [
       {
         id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery",
+        icon: SiFigma,
+        name: "Figma",
       },
     ],
   },
   {
     id: "project-6",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
+    title: "Your aquatic home",
+    github: "",
+    link: "https://www.figma.com/proto/gJOrdKTk7vYN1ruGBmvlM9/Natacion?node-id=1-2&t=cm3BgrimhJNnb7lA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     image: greentrust,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "A homepage and 'About Us' concept for a swimming pool, designed with fresh aqua tones and subtle wave elements. The layout showcases services, facilities, staff, events, and testimonials, using curved shapes and modern typography to create a clean, refreshing, and inviting atmosphere.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
+        icon: SiFigma,
+        name: "Figma",
       },
     ],
   },
   {
     id: "project-7",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
+    title: "La Dolce Vita",
+    github: "",
+    link: "https://www.figma.com/proto/7UvkJkTcPGT8JwJTNX9bm7/La-Dolce-Vita?node-id=1-2&starting-point-node-id=1%3A2",
     image: chargeswap,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon.",
+      "A homepage and brand concept for La Dolce Vita, an elegant restaurant. The design features rich tones and refined details, highlighting its gourmet menu, fine dining atmosphere, chef’s specialties, and customer reviews. Sleek typography and sophisticated layouts create a luxurious and timeless experience.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat",
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino",
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
+        icon: SiFigma,
+        name: "Figma",
       },
     ],
   },
@@ -821,6 +750,31 @@ export const projects = [
     ],
   },
   {
+    id: "project-10",
+    title: "Portfolio",
+    github: "https://github.com/mittal-parth/personal-portfolio",
+    link: "https://parthmittal.netlify.app/",
+    image: portfolio,
+    content: "Open source developer portfolio template with modern UI/UX. 125+ stars on GitHub.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "Tailwind CSS",
+      },
+      {
+        id: "icon-3",
+        icon: AiFillHtml5,
+        name: "HTML",
+      },
+    ],
+  },
+    {
     id: "project-10",
     title: "Portfolio",
     github: "https://github.com/mittal-parth/personal-portfolio",
@@ -1023,27 +977,27 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/gilberto-macias-03889927a/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://github.com/GilbertoM0",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
+    link: "gil:gmaciasochoa00@gmail.com",
   },
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    link: "https://x.com/Dolextron4041",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "https://www.instagram.com/gilmacias10/",
   },
 ];
 
@@ -1052,9 +1006,9 @@ export const aboutMe = {
   name: "Gilberto Macías",
   githubUsername: "GilbertoM0",
   tagLine:
-    "Desarrollador de software | Orgullosamente mexicano | Apasionado por la tecnología y la innovación",
+    "Software developer | Proudly Mexican | Passionate about technology and innovation",
   intro:
-    "Desarrollador de software de México, siempre buscando aprender algo nuevo, crear soluciones que impacten y disfrutar la vida. Si no estoy programando, probablemente estoy pensando en mi próximo proyecto.",
+    "Software developer from Mexico, always looking to learn something new, create impactful solutions, and enjoy life. If I'm not programming, I'm probably thinking about my next project.",
 };
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
